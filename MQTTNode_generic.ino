@@ -49,15 +49,15 @@
 
 
 
-const char* otaPassword = "fred";  // OTA update password
-char* mqttServer = "10.65.180.111"; // "soldier.cloudmqtt.com";  //  Your MQTT server IP address
-char* mqttUser = "";  // "xeuoimim"; //mqtt username, set to "" for no user
-char* mqttPassword = "";  // "f4oEyB8KTBr7"; //mqtt password, set to "" for no password
+const char* otaPassword = "abc123";  // OTA update password
+char* mqttServer = "192.168.1.1";   //  Your MQTT server IP address
+char* mqttUser = "";  //mqtt username, set to "" for no user
+char* mqttPassword = "";  //mqtt password, set to "" for no password
 
 
-const String mqttNode = "MQTTNode7"; // Your unique hostname for this device
-const String mqttLocation = "ATX Powersupply control"; // Location for this device
-const String mqttSketch = "A_MQTTNode7"; // Sketch Name for this Node
+const String mqttNode = "MQTTNode99"; // Your unique hostname for this device
+const String mqttLocation = "Shed"; // Location for this device
+const String mqttSketch = "abc123"; // Sketch Name for this Node
 const String mqttSensor1type = "Voltage sensor"; // Sensor type
 const String mqttSensor2type = ""; // Sensor type
 const String mqttSensor3type = ""; // Sensor type
